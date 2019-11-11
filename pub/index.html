@@ -1,0 +1,68 @@
+<!-- Projekt - Webbutveckling III - Moa Hjemdahl 2019 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moa Hjemdahl</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <!-- Home -->
+    <div class="block" id="startBlock">
+        <a href="mailto:moahjemdahl@outlook.com" class="bttKontakt">Kontakt</a>
+        <h1><span class="yellow">Moa </span><span class="pink">Hjemdahl</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolioBlock" class="nav">Portfolio</a></li>
+                <li><a href="#studiesBlock" class="nav">Studier</a></li>
+                <li><a href="#workBlock" class="nav">Jobb</a></li>
+                <li><a href="#aboutBlock" class="nav">Om</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Portfolio -->
+    <div class="block" id="portfolioBlock">
+        <h1><span class="pink">Portfolio</span></h1>
+        <!-- Output from db -->
+        <div id="portfolio">
+        </div>
+        <a href="#startBlock" class="btt">Till<br>toppen</a>
+    </div>
+    <!-- Studies -->
+    <div class="block" id="studiesBlock">
+        <h1><span class="gray">Studier</span></h1>
+        <!-- Output from db -->
+        <div class="tbl">
+            <table id="studiesTable">
+            </table>
+        </div>
+    </div>
+    <!-- Work -->
+    <div class="block" id="workBlock">
+        <h1><span class="dark">Jobb</span></h1>
+        <!-- Output from db -->
+        <div class="tbl">
+            <table id="workTable">
+            </table>            
+        </div>
+    </div>
+    <!-- About -->
+    <div class="block" id="aboutBlock">
+        <h1><span class="yellow">Om</span></h1>
+        <img id="infoPic" src="http://studenter.miun.se/~mohj1800/projekt/pics/portratt.jpeg" alt="Porträtt på webbutvecklaren.">
+        <p class="info">Jag är en blivande webbutvecklare som brinner extra för design, bild och film. 
+            Jag hjälper dig med andra ord mer än gärna med hela paketet till din blivande webbplats.
+            Just nu befinner jag mig mitt i utbildningen Webbutveckling på Mittuniversitetet.
+            <br>
+            <br>
+            Mig hittar du i Norrbotten, Piteå närmare bestämt. En bit bort från det mesta men världen är liten idag tack vare internet. 
+            Kontakta mig gärna på mail genom knappen uppe till vänster!
+        </p>
+    </div>
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

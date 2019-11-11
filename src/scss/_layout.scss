@@ -1,0 +1,21 @@
+// Projekt - Webbutveckling III - Moa Hjemdahl 2019
+
+//Layouts and positions
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: $dark;
+}
+img {
+    width: 100%;
+}
+.block {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
