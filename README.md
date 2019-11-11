@@ -14,3 +14,5 @@ Det ger en snabbare arbetsprocess, mindre och färre filer som ger en snabbare w
 
 ## Webbplatsen
 Skapad i HTML med Sass för design. Ecmascript med fetch metoden använder read metoden i CRUD fuktionaliteten som REST-webbtjänsten har för utläsning av CV.
+
+http://studenter.miun.se/~mohj1800/web3/projekt/cv/index.html
