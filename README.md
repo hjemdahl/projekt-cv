@@ -2,7 +2,7 @@
 Webbplats som konsumerar REST-webbtjänsts API med read skapad i gulp- grund för webbutveckling i form av automatiseringsprocess.
 
 ## Automatiseringsprocessen
-Automatiseringsprecessen genom Gulp kopierar, slrå samman och komprimerar filer.
+Automatiseringsprecessen genom Gulp kopierar, slår samman och komprimerar filer.
 Detta per automatik från de filer arbetet sker i, direkt vid ändring, skapas det publiceringbara versioner av dem.
 Det ger en snabbare arbetsprocess, mindre och färre filer som ger en snabbare webbplats.
 
